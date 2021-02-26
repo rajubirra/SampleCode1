@@ -44,7 +44,10 @@ define([
       name: 'HomeButton',
       baseClass: 'jimu-widget-homebutton',
 
-      moveTopOnActive: false,
+        moveTopOnActive: false,
+
+
+
 
       postCreate: function() {
         html.setAttr(this.domNode, 'aria-label', window.apiNls.widgets.homeButton.home.title);
