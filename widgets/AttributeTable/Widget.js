@@ -89,6 +89,13 @@ define([
         this.nls.features = this.nls.features || 'features';
       },
 
+
+
+
+
+
+
+      d:null,
       postCreate: function() {
         this.inherited(arguments);
         html.setAttr(this.domNode, 'aria-label', this.nls._widgetLabel);
